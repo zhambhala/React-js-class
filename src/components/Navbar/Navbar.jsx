@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
-
+import { Icon } from '@iconify/react';
 function Navbar() {
 
   const [clicked, setClicked] = useState(false)
@@ -15,10 +15,10 @@ function Navbar() {
         <h2><span>Arms</span> Tienda</h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a onClick={handleClick} href="#h">Home</a>
-          <a onClick={handleClick} href="#h">Tienda</a>
           <a onClick={handleClick} href="#h">Nosotros</a>
           <a onClick={handleClick} href="#h">Contacto</a>
           <a onClick={handleClick} href="#h">Objetivo</a>
+          <a onClick={handleClick} href="#h"><Icon icon="el:shopping-cart-sign" /></a>
         </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClick} />
@@ -42,7 +42,7 @@ const NavContainer = styled.nav`
   padding: .4rem;
   background-color: #333;
   display: flex;
-  align-items: center;
+  align-items: cente;
   justify-content: space-between;
   a{
     color: white;
