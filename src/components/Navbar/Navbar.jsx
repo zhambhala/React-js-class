@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
-import { Icon } from '@iconify/react';
+import CartWidget from './CartWidget'
 function Navbar() {
 
   const [clicked, setClicked] = useState(false)
@@ -18,7 +18,7 @@ function Navbar() {
           <a onClick={handleClick} href="#h">Nosotros</a>
           <a onClick={handleClick} href="#h">Contacto</a>
           <a onClick={handleClick} href="#h">Objetivo</a>
-          <a onClick={handleClick} href="#h"><Icon icon="el:shopping-cart-sign" /></a>
+          <a onClick={handleClick} href="#h"> <CartWidget/> </a>
         </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClick} />
