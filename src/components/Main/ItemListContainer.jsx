@@ -23,7 +23,7 @@ export default function ItemListContainer() {
 
 return(
 
-    <div className="row"><ItemList productos={productos}/></div>
+    <div className="row bg-success"><ItemList productos={productos}/></div>
 )
 }
 

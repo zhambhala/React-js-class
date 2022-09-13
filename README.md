@@ -1,3 +1,17 @@
+mi proyecto sera una tienda de libros, comics y mangas. de esta manera podre poner categorias a los productos de una manera mas eficiente,realmente es algo que me va a servir personalmente,
+no recuerdo bien las dependencias que dimos en clase, por lo que pondre una lista de las que estoy utilizando 
+"bootstrap": "^5.2.0",
+"prop-types": "^15.8.1",
+"react-bootstrap": "^2.5.0",
+"react-router-dom": "^6.3.0",
+"react-scripts": "5.0.1",
+"sass": "^1.54.5",
+"styled-components": "^5.3.5",
+en resumen creo que con estas dependencias podre tener un abanico mas grande de practica, por eso en algunos casos estoy empleando el styled-components, en otros el bootstrap con css sin sass, solo faltaria el sass (que ya estoy pensando en donde usarlo)
+
+
+
+-------------------------Info del readme.md que ya viene con React abajo---------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

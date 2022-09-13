@@ -2,7 +2,7 @@
 import { useState, } from "react";
 import React from 'react'
 
-function ItemCount({stock, initial=0, onAdd}) {
+function ItemCount({stock, initial="0", onAdd}) {
     const [counter, setCounter] = useState(initial)
     // let counter = 1 no se debe usar esta manera en React
     const handleSumar = () => {

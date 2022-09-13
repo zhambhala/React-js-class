@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
 import CartWidget from './CartWidget'
+import {Link} from 'react-router-dom'
 function Navbar() {
 
   const [clicked, setClicked] = useState(false)
@@ -12,13 +13,13 @@ function Navbar() {
   return (
     <>
       <NavContainer>
-        <h2><span>Arms</span> Tienda</h2>
+        <div onClick={handleClick}><h2><span >Arms</span> Tienda</h2></div>
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <a onClick={handleClick} href="#h">Home</a>
-          <a onClick={handleClick} href="#h">Nosotros</a>
-          <a onClick={handleClick} href="#h">Contacto</a>
-          <a onClick={handleClick} href="#h">Objetivo</a>
-          <a onClick={handleClick} href="#h"> <CartWidget/> </a>
+          <Link to='/' onClick={handleClick} >Home</Link>
+          <Link to='/nosotros' onClick={handleClick} >Nosotros</Link>
+          <Link to='/contacto' onClick={handleClick} >Contacto</Link>
+          <Link to='/objetivo' onClick={handleClick} >Objetivo</Link>
+          <Link to='/cart' onClick={handleClick} > <CartWidget/> </Link>
         </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClick} />
