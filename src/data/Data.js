@@ -6,7 +6,7 @@ export const stock = [
         img:"./assets/imgs/asterixElGalo.jpg",
         stock: 0,
         desc: 'Un gran producto',
-        category: 'historieta'
+        category: 'libros'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const stock = [
         img: "./assets/imgs/asterixEnBretaña.jpg",
         stock: 6,
         desc: 'Un gran producto',
-        category: 'historieta'
+        category: 'libros'
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const stock = [
         img: "./assets/imgs/batmanLuz.jpg",
         stock: 6,
         desc: 'Un gran producto',
-        category: 'comic'
+        category: 'comics'
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const stock = [
         img: "./assets/imgs/dMetal6.jpg",
         stock: 6,
         desc: 'Un gran producto',
-        category: 'comic'
+        category: 'comics'
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const stock = [
         img: "./assets/imgs/gLantern.jpg",
         stock: 6,
         desc: 'Un gran producto',
-        category: 'comic'
+        category: 'comics'
     },
     {
         id: 6,
@@ -51,6 +51,6 @@ export const stock = [
         img: "./assets/imgs/vDVendetta.jpg",
         stock: 6,
         desc: 'Un gran producto',
-        category: 'comic'
+        category: 'comics'
     },
 ]

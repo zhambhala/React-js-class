@@ -1,4 +1,4 @@
-import {useEffect ,useState} from "react"
+/*import {useEffect ,useState} from "react"
 import { useParams } from "react-router-dom"
 import { pedirDatos } from "../../helpers/pedirDatos"
 import ItemDetail from "../itemDetail/ItemDetail"
@@ -27,4 +27,4 @@ function ItemDetailContainer() {
   )
 }
 
-export default ItemDetailContainer
+export default ItemDetailContainer*/
