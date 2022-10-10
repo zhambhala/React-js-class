@@ -4,9 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemListContainer from './components/Main/ItemListContainer';
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import ItemDetailContainer from './components/itemDetailContainer/ItemDetailContainer';
+import { MyContext } from './components/context/Mycontext';
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
       <Navbar/>
       <Routes>
@@ -19,6 +21,7 @@ function App() {
       
       <div></div>
       </BrowserRouter>
+   
     </div>
   );
 }

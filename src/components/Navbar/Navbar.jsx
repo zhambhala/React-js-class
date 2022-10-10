@@ -16,9 +16,9 @@ function Navbar() {
         <div onClick={handleClick}><h2><span >Arms</span> Tienda</h2></div>
         <div className={`links ${clicked ? 'active' : ''}`}>
           <Link to='/' onClick={handleClick} >Home</Link>
-          <Link to='productos/libros' onClick={handleClick} >Libros</Link>
-          <Link to='productos/comics' onClick={handleClick} >Comics</Link>
-          <Link to='productos/mangas' onClick={handleClick} >Mangas</Link>
+          <Link to='/productos/libros' onClick={handleClick} >Libros</Link>
+          <Link to='/productos/comics' onClick={handleClick} >Comics</Link>
+          <Link to='/productos/mangas' onClick={handleClick} >Mangas</Link>
           <Link to='/objetivo' onClick={handleClick} >Objetivo</Link>
           <Link to='/nosotros' onClick={handleClick} >Nosotros</Link>
           <Link to='/cart' onClick={handleClick} > <CartWidget/> </Link>

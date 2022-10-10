@@ -6,8 +6,8 @@ import { pedirDatos } from "../../helpers/pedirDatos"
 import ItemList from "../../itemList/ItemList"
 export default function ItemListContainer() {
 
-    const [productos,setProductos] = useState([])
-    const [loading,setLoading] = useState(true)
+    const [productos, setProductos] = useState([])
+    const [loading, setLoading] = useState(true)
     const {categoryId} = useParams()
     console.log(categoryId)
     useEffect(()=>{
@@ -16,12 +16,10 @@ export default function ItemListContainer() {
         pedirDatos()
         .then((res)=>{
             if (!categoryId) {
-                setProductos(res)
+               setProductos(res)
             }else{
-                setProductos(res.filter((prod)=> prod.categoryId === categoryId))
+                setProductos(res.filter((prod)=> prod.category === categoryId))
             }
-            console.log(res)
-          setProductos(res)
         })
         .catch((error)=>{
             console.log(error)
