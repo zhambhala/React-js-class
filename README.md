@@ -10,6 +10,7 @@ no recuerdo bien las dependencias que dimos en clase, por lo que pondre una list
 en resumen creo que con estas dependencias podre tener un abanico mas grande de practica, por eso en algunos casos estoy empleando el styled-components, en otros el bootstrap con css sin sass, solo faltaria el sass (que ya estoy pensando en donde usarlo)
 
 
+![2022-10-10 16-06-21](https://user-images.githubusercontent.com/101235376/194938435-12a3bb85-aad3-409b-b4a4-b6048a16ed86.gif)
 
 -------------------------Info del readme.md que ya viene con React abajo---------------------------------------
 # Getting Started with Create React App
